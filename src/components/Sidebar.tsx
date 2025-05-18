@@ -102,7 +102,7 @@ const SidebarHeader = () => {
   return (
     <div className="flex space-x-2">
       <Image
-        src="/Images/Screenshot 2025-05-18 165221.png"
+        src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg"
         alt="Avatar"
         height="40"
         width="40"
