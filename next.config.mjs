@@ -8,7 +8,7 @@ const nextConfig = {
     domains: [
       "images.unsplash.com",
       "res.cloudinary.com",
-      "images.pexels.com"
+      "https://imgur.com/"
     ],
   },
   experimental: {
