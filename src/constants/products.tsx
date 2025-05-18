@@ -39,7 +39,7 @@ export const products: Product[] = [
     title: "Key Clean",
     description:
       "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
+    thumbnail: "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
       "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
       "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg"
