@@ -35,8 +35,8 @@ export const products: Product[] = [
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://euphonious-jalebi-4a680e.netlify.app/",
+    title: "Key Clean",
     description:
       "Practice for technical interviews with hands on coding challenges.",
     thumbnail: "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
