@@ -2,8 +2,8 @@ import { Product } from "@/types/products";
 
 export const products: Product[] = [
   {
-    href: "https://aceternity.com",
-    title: "Aceternity",
+    href: "http://torontoctagon.com/",
+    title: "Torontoctagon",
     description:
       "A design and development studio that focuses on building quality apps.",
     thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
