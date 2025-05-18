@@ -12,14 +12,7 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Suheyb</Heading>
       <Paragraph className="max-w-xl mt-4">
-        I&apos;m a full-stack developer passionate about{" "}
-        <Highlight>building innovative solutions</Highlight> that drive business growth 
-        and enhance user experiences
-      </Paragraph>
-      <Paragraph className="max-w-xl mt-4">
-        With extensive experience in developing scalable web applications, I specialize 
-        in creating high-performance, user-centric solutions that combine elegant design 
-        with robust functionality.
+       I'm a front-end developer based in Toronto, Canada. I have worked on a wide range of front-end projects, from Fitness applications to Transportation booking platforms, focusing on creating clean, well-crafted interfaces that look great and provide a seamless user experience.
       </Paragraph>
       <Heading
         as="h2"
