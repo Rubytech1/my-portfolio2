@@ -5,7 +5,7 @@ export const products: Product[] = [
     href: "http://torontoctagon.com/",
     title: "Torontoctagon",
     description:
-      "A design and development studio that focuses on building quality apps.",
+      "A creative MMA agency based in Toronto, building sleek signup forms for seamless digital experiences.",
     thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
     images: [
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
