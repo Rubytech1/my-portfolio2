@@ -8,10 +8,9 @@ export const products: Product[] = [
       "A creative MMA agency based in Toronto, building sleek signup forms for seamless digital experiences.",
     thumbnail: "https://images.unsplash.com/photo-1747605573791-e77455a8f244?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
-      "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      "https://images.unsplash.com/photo-1747605573791-e77455a8f244?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    slug: "Torontoctagon",
     content: (
       <div>
         <p>
@@ -40,11 +39,9 @@ export const products: Product[] = [
       "Practice for technical interviews with hands on coding challenges.",
     thumbnail: "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
-      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
-      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg"
+      "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    slug: "Key Clean",
     content: (
       <div>
         <p>
