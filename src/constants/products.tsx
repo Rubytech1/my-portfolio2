@@ -6,10 +6,10 @@ export const products: Product[] = [
     title: "Aceternity",
     description:
       "A design and development studio that focuses on building quality apps.",
-    thumbnail: "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg",
+    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
     images: [
-      "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg",
-      "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg"
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800"
     ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "aceternity",
