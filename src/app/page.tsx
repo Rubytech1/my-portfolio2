@@ -17,9 +17,9 @@ export default function Home() {
         and enhance user experiences
       </Paragraph>
       <Paragraph className="max-w-xl mt-4">
-        With <Highlight>extensive experience</Highlight> in developing scalable web 
-        applications, I specialize in creating high-performance, user-centric solutions 
-        that combine elegant design with robust functionality.
+        With extensive experience in developing scalable web applications, I specialize 
+        in creating high-performance, user-centric solutions that combine elegant design 
+        with robust functionality.
       </Paragraph>
       <Heading
         as="h2"
