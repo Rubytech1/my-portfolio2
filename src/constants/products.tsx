@@ -1,20 +1,16 @@
-import sidefolioAceternity from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAceternity2 from "public/images/sidefolio-aceternity-2.png";
-import sidefolioAlgochurn from "public/images/sidefolio-algochurn.png";
-import sidefolioAlgochurn2 from "public/images/sidefolio-algochurn.png";
-import sidefolioMoonbeam from "public/images/sidefolio-moonbeam.png";
-import sidefolioMoonbeam2 from "public/images/sidefolio-moonbeam-2.png";
-import sidefolioTailwindMasterKit from "public/images/sidefolio-tailwindmasterkit.png";
-import sidefolioTailwindMasterKit2 from "public/images/sidefolio-tailwindmasterkit-2.png";
+import { Product } from "@/types/products";
 
-export const products = [
+export const products: Product[] = [
   {
     href: "https://aceternity.com",
     title: "Aceternity",
     description:
       "A design and development studio that focuses on building quality apps.",
-    thumbnail: sidefolioAceternity,
-    images: [sidefolioAceternity, sidefolioAceternity2],
+    thumbnail: "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg",
+    images: [
+      "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg",
+      "https://images.pexels.com/photos/18069362/pexels-photo-18069362.jpeg"
+    ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "aceternity",
     content: (
@@ -43,8 +39,11 @@ export const products = [
     title: "Algochurn",
     description:
       "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: sidefolioAlgochurn,
-    images: [sidefolioAlgochurn, sidefolioAlgochurn2],
+    thumbnail: "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
+    images: [
+      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
+      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg"
+    ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "algochurn",
     content: (
@@ -73,8 +72,11 @@ export const products = [
     title: "Moonbeam",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: sidefolioMoonbeam,
-    images: [sidefolioMoonbeam, sidefolioMoonbeam2],
+    thumbnail: "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
+    images: [
+      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
+      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg"
+    ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "moonbeam",
     content: (
@@ -103,8 +105,11 @@ export const products = [
     title: "Tailwind Master Kit",
     description:
       "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: sidefolioTailwindMasterKit,
-    images: [sidefolioTailwindMasterKit, sidefolioTailwindMasterKit2],
+    thumbnail: "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg",
+    images: [
+      "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg",
+      "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg"
+    ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "tailwindmasterkit",
     content: (
