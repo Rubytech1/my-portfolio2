@@ -8,7 +8,7 @@ const nextConfig = {
     domains: [
       "images.unsplash.com",
       "res.cloudinary.com",
-      "images.pexels.com", // this line enables Pexels images!
+      "images.pexels.com"
     ],
   },
   experimental: {
@@ -26,5 +26,5 @@ const withMDX = nextMDX({
 
 export default withMDX({
   ...nextConfig,
-  images: nextConfig.images, // ensures images config is preserved
+  images: nextConfig.images,
 });
