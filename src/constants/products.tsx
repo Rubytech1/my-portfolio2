@@ -6,7 +6,7 @@ export const products: Product[] = [
     title: "Torontoctagon",
     description:
       "A creative MMA agency based in Toronto, building sleek signup forms for seamless digital experiences.",
-    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
+    thumbnail: "https://unsplash.com/photos/_8sEaP8MSvw",
     images: [
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800"
