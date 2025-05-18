@@ -5,7 +5,11 @@ import rehypePrism from "@mapbox/rehype-prism";
 
 const nextConfig = {
   images: {
-    domains: ["images.unsplash.com", "res.cloudinary.com", "images.pexels.com"],
+    domains: [
+      "images.unsplash.com",
+      "res.cloudinary.com",
+      "images.pexels.com", // this line enables Pexels images!
+    ],
   },
   experimental: {
     mdxRs: true,
@@ -20,9 +24,7 @@ const withMDX = nextMDX({
   },
 });
 
-// Make sure to wrap the config with withMDX while preserving the original config
 export default withMDX({
   ...nextConfig,
-  // Ensure image configuration is not overwritten
-  images: nextConfig.images,
+  images: nextConfig.images, // ensures images config is preserved
 });
