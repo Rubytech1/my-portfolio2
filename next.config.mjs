@@ -20,4 +20,9 @@ const withMDX = nextMDX({
   },
 });
 
-export default withMDX(nextConfig);
+// Make sure to wrap the config with withMDX while preserving the original config
+export default withMDX({
+  ...nextConfig,
+  // Ensure image configuration is not overwritten
+  images: nextConfig.images,
+});
