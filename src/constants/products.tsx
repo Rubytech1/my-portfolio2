@@ -6,13 +6,13 @@ export const products: Product[] = [
     title: "Torontoctagon",
     description:
       "A creative MMA agency based in Toronto, building sleek signup forms for seamless digital experiences.",
-    thumbnail: "/IMages/Screenshot 2025-05-18 165221.png",
+    thumbnail: "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
     images: [
-      "/IMages/Screenshot 2025-05-18 165221.png",
-      "/IMages/Screenshot 2025-05-18 165221.png"
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800"
     ],
     stack: ["Nextjs", "Tailwindcss"],
-    slug: "torontoctagon",
+    slug: "aceternity",
     content: (
       <div>
         <p>
