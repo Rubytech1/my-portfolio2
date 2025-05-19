@@ -64,8 +64,8 @@ export const products: Product[] = [
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://merry-moxie-0adb14.netlify.app/",
+    title: "Ruby Limo",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
     thumbnail: "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
