@@ -11,6 +11,9 @@ const nextConfig = {
       "images.pexels.com"
     ],
   },
+  experimental: {
+    mdxRs: true,
+  },
 };
 
 const withMDX = nextMDX({
