@@ -100,7 +100,7 @@ export const products: Product[] = [
     title: "Ai ChatBot",
     description:
       "An intelligent AI chatbot designed to streamline customer support, boost engagement, and deliver instant, human-like responses 24/7.",
-    thumbnail: "https://www.tidio.com/wp-content/uploads/13-chatbot-builder.png",
+    thumbnail: "https://images.unsplash.com/photo-1747620248383-dada26c12a34?q=80&w=1926&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
       "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg",
       "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg"
