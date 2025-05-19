@@ -68,10 +68,10 @@ export const products: Product[] = [
     title: "Ruby Limo",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
+    thumbnail: "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
-      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
-      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg"
+      "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
     ],
     stack: ["Nextjs", "Tailwindcss"],
     slug: "moonbeam",
