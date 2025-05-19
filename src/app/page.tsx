@@ -3,7 +3,6 @@ import { Heading } from "@/components/Heading";
 import { Highlight } from "@/components/Highlight";
 import { Paragraph } from "@/components/Paragraph";
 import { Products } from "@/components/Products";
-import { TechStack } from "@/components/TechStack";
 import Image from "next/image";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Suheyb</Heading>
       <Paragraph className="max-w-xl mt-4">
-       I'm a front-end developer based in Toronto, Canada. I have worked on a wide range of front-end projects, from Fitness applications to Transportation booking platforms, focusing on creating clean, well-crafted interfaces that look great and provide a seamless user experience.
+       I'm a full-stack developer passionate about building innovative solutions that drive business growth and enhance user experiences. With extensive experience in developing scalable web applications, I specialize in creating high-performance, user-centric solutions that combine elegant design with robust functionality.
       </Paragraph>
       <Heading
         as="h2"
@@ -21,7 +20,6 @@ export default function Home() {
         What I&apos;ve been working on
       </Heading>
       <Products />
-      <TechStack />
     </Container>
   );
 }
