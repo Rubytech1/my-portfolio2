@@ -5,14 +5,12 @@ export const products: Product[] = [
     href: "http://torontoctagon.com/",
     title: "Torontoctagon",
     description:
-      "A creative MMA agency based in Toronto, building sleek signup forms for seamless digital experiences.",
-    thumbnail: "https://unsplash.com/photos/_8sEaP8MSvw",
+      "https://images.unsplash.com/photo-1747605573791-e77455a8f244?q=80&w=2034&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800",
       "https://images.unsplash.com/photo-1558317374-067fb5f30001?auto=format&fit=crop&w=800"
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "aceternity",
+    slug: "Torontoctagon",
     content: (
       <div>
         <p>
@@ -35,17 +33,15 @@ export const products: Product[] = [
     ),
   },
   {
-    href: "https://algochurn.com",
-    title: "Algochurn",
+    href: "https://euphonious-jalebi-4a680e.netlify.app/",
+    title: "Key Clean",
     description:
       "Practice for technical interviews with hands on coding challenges.",
-    thumbnail: "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
+    thumbnail: "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
-      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg",
-      "https://images.pexels.com/photos/18023772/pexels-photo-18023772.jpeg"
+      "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "algochurn",
+    slug: "Key Clean",
     content: (
       <div>
         <p>
@@ -68,17 +64,15 @@ export const products: Product[] = [
     ),
   },
   {
-    href: "https://gomoonbeam.com",
-    title: "Moonbeam",
+    href: "https://merry-moxie-0adb14.netlify.app/",
+    title: "Ruby Limo",
     description:
       "Never write from scratch again with Moonbeam, your AI first writing tool",
-    thumbnail: "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
+    thumbnail: "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
-      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg",
-      "https://images.pexels.com/photos/18071319/pexels-photo-18071319.jpeg"
+      "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "moonbeam",
+    slug: "Ruby Limo",
     content: (
       <div>
         <p>
