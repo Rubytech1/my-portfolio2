@@ -11,7 +11,7 @@ import { motion } from "framer-motion";
 export const Products = () => {
   return (
     <div>
-      <div className="grid grid-cols-1  gap-10">
+      <div className="grid grid-cols-1 gap-10">
         {products.map((product: Product, idx: number) => (
           <motion.div
             key={product.href}
@@ -30,18 +30,20 @@ export const Products = () => {
               key={product.href}
               className="group flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4 hover:bg-gray-50 rounded-2xl transition duration-200 pt-4"
             >
-              <Image
-                src={product.thumbnail}
-                alt="thumbnail"
-                height="200"
-                width="200"
-                className="rounded-md"
-              />
+              {product.thumbnail && (
+                <Image
+                  src={product.thumbnail}
+                  alt={`${product.title} thumbnail`}
+                  height={200}
+                  width={200}
+                  className="rounded-md"
+                />
+              )}
               <div className="flex flex-col justify-between">
                 <div>
                   <Heading
                     as="h4"
-                    className="font-black text-lg md:text-lg lg:text-lg "
+                    className="font-black text-lg md:text-lg lg:text-lg"
                   >
                     {product.title}
                   </Heading>
@@ -53,7 +55,7 @@ export const Products = () => {
                   {product.stack?.map((stack: string) => (
                     <span
                       key={stack}
-                      className="text-xs  md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
+                      className="text-xs md:text-xs lg:text-xs bg-gray-50 px-2 py-1 rounded-sm text-secondary"
                     >
                       {stack}
                     </span>

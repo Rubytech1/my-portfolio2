@@ -51,14 +51,16 @@ export const TechStack = () => {
       </Heading>
       <div className="flex flex-wrap">
         {stack.map((item) => (
-          <Image
-            key={item.src}
-            src={item.src}
-            width={200}
-            height={200}
-            alt={item.title}
-            className={twMerge("object-contain mr-4 mb-4", item.className)}
-          />
+          item.src && (
+            <Image
+              key={item.src}
+              src={item.src}
+              width={200}
+              height={200}
+              alt={item.title}
+              className={twMerge("object-contain mr-4 mb-4", item.className)}
+            />
+          )
         ))}
       </div>
     </div>
