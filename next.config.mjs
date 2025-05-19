@@ -1,30 +1,15 @@
-/** @type {import('next').NextConfig} */
-import nextMDX from "@next/mdx";
-import remarkGfm from "remark-gfm";
-import rehypePrism from "@mapbox/rehype-prism";
+import createMDX from '@next/mdx';
 
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
-    domains: [
-      "images.unsplash.com",
-      "res.cloudinary.com",
-      "images.pexels.com"
-    ],
+    domains: ['images.unsplash.com', 'images.pexels.com'],
   },
-  experimental: {
-    mdxRs: true,
-  },
+  pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
 };
 
-const withMDX = nextMDX({
+const withMDX = createMDX({
   extension: /\.mdx?$/,
-  options: {
-    remarkPlugins: [remarkGfm],
-    rehypePlugins: [rehypePrism],
-  },
 });
 
-export default withMDX({
-  ...nextConfig,
-  images: nextConfig.images,
-});
+export default withMDX(nextConfig);
