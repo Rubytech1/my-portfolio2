@@ -37,7 +37,7 @@ export const products: Product[] = [
     href: "https://euphonious-jalebi-4a680e.netlify.app/",
     title: "Key Clean",
     description:
-      "Practice for technical interviews with hands on coding challenges.",
+      "A modern key cleaning service based in Toronto, offering sleek, sanitary solutions for everyday hygiene and peace of mind.",
     thumbnail: "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
       "https://images.unsplash.com/photo-1747608615509-3c9adf3652f4?q=80&w=2126&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
