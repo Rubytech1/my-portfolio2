@@ -11,7 +11,7 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos;m Suheyb</Heading>
       <Paragraph className="max-w-xl mt-4">
-       I'm a full-stack developer passionate about building innovative solutions that drive business growth and enhance user experiences. With extensive experience in developing scalable web applications, I specialize in creating high-performance, user-centric solutions that combine elegant design with robust functionality.
+       I&apos;m a full-stack developer passionate about building innovative solutions that drive business growth and enhance user experiences. With extensive experience in developing scalable web applications, I specialize in creating high-performance, user-centric solutions that combine elegant design with robust functionality.
       </Paragraph>
       <Heading
         as="h2"
