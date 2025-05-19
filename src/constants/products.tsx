@@ -67,7 +67,7 @@ export const products: Product[] = [
     href: "https://merry-moxie-0adb14.netlify.app/",
     title: "Ruby Limo",
     description:
-      "Never write from scratch again with Moonbeam, your AI first writing tool",
+      "A premium limousine service based in Toronto, Ruby Limo delivers elegant rides and unforgettable experiences for every occasion.",
     thumbnail: "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     images: [
       "https://images.unsplash.com/photo-1747615346466-3260a3a6d233?q=80&w=2177&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
