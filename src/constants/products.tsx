@@ -96,17 +96,16 @@ export const products: Product[] = [
     ),
   },
   {
-    href: "https://tailwindmasterkit.com",
-    title: "Tailwind Master Kit",
+    href: "https://creator.voiceflow.com/prototype/682a8d8d12a16689134f0d0c",
+    title: "Ai ChatBot",
     description:
-      "A beautiful and comprehensive Tailwind CSS components library for building modern websites and applications.",
-    thumbnail: "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg",
+      "An intelligent AI chatbot designed to streamline customer support, boost engagement, and deliver instant, human-like responses 24/7.",
+    thumbnail: "https://www.tidio.com/wp-content/uploads/13-chatbot-builder.png",
     images: [
       "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg",
       "https://images.pexels.com/photos/18073372/pexels-photo-18073372.jpeg"
     ],
-    stack: ["Nextjs", "Tailwindcss"],
-    slug: "tailwindmasterkit",
+    slug: "Ai ChatBot",
     content: (
       <div>
         <p>
